@@ -1,0 +1,56 @@
+﻿Build started 21-06-2016 20:30:49.
+     1>Project "C:\Users\PRIYASH\Documents\Visual Studio 2013\Projects\WebCrawler\WebCrawler\WebCrawler.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bloom_Filter.cpp Crawler.cpp Source.cpp
+         Bloom_Filter.cpp
+         Crawler.cpp
+     1>c:\users\priyash\documents\visual studio 2013\projects\webcrawler\webcrawler\Crawler.h(91): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'const wchar_t [72]' (or there is no acceptable conversion)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(1017): could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(_Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(1012): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(996): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(957): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(901): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) throw()'
+                 while trying to match the argument list '(std::string, const wchar_t [72])'
+     1>Crawler.cpp(150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Crawler.cpp(158): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Crawler.cpp(240): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         Source.cpp
+     1>c:\users\priyash\documents\visual studio 2013\projects\webcrawler\webcrawler\Crawler.h(91): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'const wchar_t [72]' (or there is no acceptable conversion)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(1017): could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(_Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(1012): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(996): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(957): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(901): or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) throw()'
+                 while trying to match the argument list '(std::string, const wchar_t [72])'
+     1>Done Building Project "C:\Users\PRIYASH\Documents\Visual Studio 2013\Projects\WebCrawler\WebCrawler\WebCrawler.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.81
